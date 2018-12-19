@@ -1,0 +1,39 @@
+{
+    "Records": [
+        {
+            "keywords": "guanyin",
+            "limit": 90,
+            "print_urls": true,
+		 "delay": 0.7,
+		 "size": "medium",
+		 "format": "jpg",
+		 "prefix": "guanyin",
+		 "output_directory": "data/raw/",
+		 "thumbnail":""
+        },
+        {
+            "keywords": "sun wu kong",
+            "limit": 90,
+            "print_urls": true,
+		 "delay": 0.7,
+		 "size": "medium",
+		 "format": "jpg",
+		 "prefix": "sunwukong",
+		 "output_directory": "data/raw/",
+		 "thumbnail":""
+
+        },
+	   {
+		 "keywords": "mi le fo",
+            "limit": 90,
+            "print_urls": true,
+		 "delay": 0.7,
+		 "size": "medium",
+		 "format": "jpg",
+		 "prefix": "milefo",
+		 "output_directory": "data/raw/",
+		 "thumbnail":""
+
+	   }
+    ]
+}
