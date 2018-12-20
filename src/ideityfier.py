@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import torch
 import numpy as np
 import torch.nn as nn
@@ -16,8 +15,8 @@ class Ideityfier():
 	a .jpg image and returns the name of the deity."""
 	def __init__(self):
 		# set up model
-		self.weights = torch.load('./data/model_weights.pt', map_location='cpu')
-		self.convnet = torch.load('./data/model.pt', map_location='cpu')
+		self.weights = torch.load('./model/model_weights.pt', map_location='cpu')
+		self.convnet = torch.load('./model/model.pt', map_location='cpu')
 		self.convnet.load_state_dict(self.weights)
 		self.convnet.eval()
 		self.labels = ['Mercy', 'Happy', 'Monkey']
