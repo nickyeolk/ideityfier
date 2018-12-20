@@ -5,11 +5,11 @@ from src.helper import get_arg, is_url_image
 
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
-	return 'Hello World!'
+# @app.route('/')
+# def hello_world():
+# 	return 'Hello World!'
 
-@app.route('/predict', methods = ['GET', 'POST'])
+@app.route('/', methods = ['GET', 'POST'])
 def predict():
 	if request.method == 'GET':
 		return render_template('input.html')
