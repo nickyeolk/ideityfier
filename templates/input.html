@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Ideityfier</h1>
+<h2>Where is your god now?</h2>
+
+<form action = "" method = "POST"
+     enctype = "multipart/form-data">
+     <input type = "url" name = "url" />
+     <input type = "submit"/>
+</form>
+<br>
+{% if prediction %}     
+<text>Your deity is...</text>
+{{prediction}}<br>
+<img src="{{source}}"></img>
+{% endif %}
+</body>
+</html>
